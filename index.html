@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/main.css">
+    <link href="../css/solid.css" rel="stylesheet">
+
+    <!-- responsividade -->
+    <link rel="stylesheet" href="style/responsive.css">
+    
+    <!-- owl css -->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <title>NETFLIX CLONE</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="#" class="logo">NETFLIX</a>
+            <nav>
+                <a href="#">Início</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">SAW</h3>
+                <p class="descricao">Dois homens acordam acorrentados em um banheiro como prisioneiros de um assassino em série que leva suas vítimas a situações limítrofes em um jogo macabro. Para sobreviver, eles terão de desvendar juntos as peças desse quebra-cabeças doentio.</p>
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        <a href="https://www.youtube.com/watch?v=S-1QgOMQ-ls" target="_blank">ASSISTIR AGORA</a>
+                        
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-comment-alt"></i>
+                        <a href="https://www.omelete.com.br/filmes/criticas/ijogos-mortaisi" target="_blank">MAIS INFORMAÇÕES</a>
+                    </button> <br>
+                    <button class="botaolike1" id="likeBtn">GOSTEI  <i class="fas fa-thumbs-up"></i></button>
+                    <button class="botaolike2" id="deslikeBtn">NÃO GOSTEI  <i class="fas fa-thumbs-down"></i></button> <br>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="carrossel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img src="img/A Experiência.jpg" alt="" class="box-filmes"></div>
+            <div class="item"><img src="img/As Tartarugas Ninjas.jpg" alt="" class="box-filmes"></div>
+            <div class="item"><img src="img/Carga Explosiva.jpg" alt="" class="box-filmes"></div>
+            <div class="item"><img src="img/Colheita Maldita.jpg" alt="" class="box-filmes"></div>
+            <div class="item"><img src="img/Judas e o Messias Negro.jpg" alt="" class="box-filmes"></div>
+            <div class="item"><img src="img/Lucifer.jpg" alt="" class="box-filmes"></div>
+            <div class="item"><img src="img/Pânico na Floresta.jpg" alt="" class="box-filmes"></div>
+            <div class="item"><img src="img/Resgate.jpg" alt="" class="box-filmes"></div>
+            <div class="item"><img src="img/The Stand.jpg" alt="" class="box-filmes"></div>
+            <div class="item"><img src="img/Vigiados.jpg" alt="" class="box-filmes"></div>
+            <div class="item"><img src="img/Zona de Combate.jpg" alt="" class="box-filmes"></div>
+        </div>
+    </div>
+
+    <script src="functions.js"></script>
+    <script src="https://kit.fontawesome.com/3f3417947e.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+</body>
+</html>

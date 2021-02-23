@@ -1,0 +1,166 @@
+:root {
+    --corFundo: #867412;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Elementos Base */
+
+body {
+    background: var(--corFundo);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: black;
+    font-family: 'Arial Black', Times;
+    font-size: 30px;
+    margin-left: 7px;
+}
+
+header div a {
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header div a:hover {
+
+    font-weight: bolder;
+    color: black;
+}
+
+header nav a {
+    /* color: white; */
+    color: black;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    font-size: 120%;
+    color: black;
+}
+
+/* Filme Principal */
+
+.filme-principal {
+    font-size: 16px;
+    /*background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%); - cria uma película escura sobre a imagem de fundo.*/ 
+    background: url('../img/capa-saw.jpg');
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: gold;
+}
+
+.filme-principal .descricao {
+    margin-bottom: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 5px;
+}
+
+.filme-principal .titulo {
+    margin-top: 15%;
+    margin-left: 5px;
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.botao {
+    background-color: rgba(19, 17, 17, 0.5);
+    /* background-color: rgba(0,0,0,.50); */
+    border: none;
+    color: gold;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-left: 5px;
+    transition: .5s ease all;
+}
+
+.botao:hover {
+    background-color: black;
+    color: gold;
+    cursor: pointer;
+}
+
+.botao i {
+    margin-right: 7px;
+    color: gold;
+    font-weight: 1000;
+}
+
+.botao a {
+    text-decoration: none;
+}
+
+.botao a:visited{
+    color: gold;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.botaolike1 {
+    margin-top: 10px;
+    background-color: rgba(26, 124, 2, 0.966);
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+    transition: .5s ease all;
+    font-weight: 1000;
+}
+
+.botaolike2 {
+    margin-top: 10px;
+    background-color: #990000;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+    transition: .5s ease all;
+    font-weight: 1000;
+}
+
+.botaolike1:hover {
+    background-color: rgb(94, 255, 0);
+    color: white;
+    cursor: pointer;
+}
+
+.botaolike2:hover {
+    background-color:  rgb(255, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+
+.filme-principal .container {
+    width: 70%;
+}
+
+.box-filmes {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrossel-filmes {
+   margin-top: 10px; 
+}
